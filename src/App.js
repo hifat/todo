@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Todos from './Todos'
-import AddTodo from './AddTodo';
+import AddTodo from './AddTodo'
 
 class App extends Component {
 
