@@ -1,3 +1,7 @@
 .todo-content{
     cursor: pointer;
 }
+
+.todo-content:hover{
+    text-decoration: line-through;
+}

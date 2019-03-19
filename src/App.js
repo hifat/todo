@@ -33,8 +33,8 @@ class App extends Component {
     return (
       <div className="todo-app container">
         <h1 className="center blue-text">TODO'S</h1>
-        <Todos todos={ this.state.todos } deleteTodo={ this.deleteTodo }/>
         <AddTodo addTodo={ this.addTodo }/>
+        <Todos todos={ this.state.todos } deleteTodo={ this.deleteTodo }/>
       </div>
     )
   }
